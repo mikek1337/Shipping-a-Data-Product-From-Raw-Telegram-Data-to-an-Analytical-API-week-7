@@ -15,7 +15,7 @@ api_id=os.getenv('APP_ID')
 phone_number=os.getenv('PHONE')
 config = configparser.ConfigParser()
 config.read('config.ini')
-async def scrape_telegram_channel(client, channel_entity, limit=None):
+async def scrape_telegram_channel(client, channel_entity, channel_name, channel_id, limit=None):
     channel_name = getattr(channel_entity, 'username', getattr(channel_entity, 'title', 'unknown_channel')).replace('@', '')
     logger.info(f"Starting scraping for channel: {channel_name}")
 
@@ -42,7 +42,9 @@ async def scrape_telegram_channel(client, channel_entity, limit=None):
                 'replies': message.replies.replies if message.replies else None,
                 'media_present': False,
                 'media_type': None,
-                'media_path': None
+                'media_path': None,
+                'channel_id': channel_name,
+                'channel_name': channel_id 
             }
 
             if message.media:
@@ -106,7 +108,7 @@ async def main():
             channel_name_for_file = getattr(entity, 'username', getattr(entity, 'title', 'unknown_channel')).replace('@', '')
 
             # Scrape messages and images, grouped by date
-            messages_by_date, _ = await scrape_telegram_channel(client, entity, 10)
+            messages_by_date, _ = await scrape_telegram_channel(client, entity, channel_url_or_username, channel_key, 10)
 
             # Store raw data for each date
             for date_str, messages_on_date in messages_by_date.items():

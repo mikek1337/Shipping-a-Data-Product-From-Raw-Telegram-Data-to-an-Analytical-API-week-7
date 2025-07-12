@@ -1,8 +1,7 @@
-
 version: 2
 sources:
   - name: telegram_source
-    database: datawarehouse # Replace with your database name
+    database: datawarehouse
     schema: raw
     tables:
       - name: telegram_messages

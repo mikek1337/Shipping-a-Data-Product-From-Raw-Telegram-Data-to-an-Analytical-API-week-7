@@ -198,3 +198,244 @@
 2025-07-12 11:43:33,481 - utils - INFO - Successfully loaded data/raw/telegram_messages/2023-01-17/CheMed123.json into raw table.
 2025-07-12 11:43:33,485 - utils - INFO - Successfully loaded data/raw/telegram_messages/2025-07-10/lobelia4cosmetics.json into raw table.
 2025-07-12 11:43:33,490 - utils - INFO - Successfully loaded data/raw/telegram_messages/2025-07-10/tikvahpharma.json into raw table.
+2025-07-12 15:22:28,351 - utils - INFO - Connecting to Telegram...
+2025-07-12 15:22:28,353 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-12 15:22:28,473 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-12 15:24:43,987 - utils - INFO - Starting scraping for channel: CheMed123
+2025-07-12 15:24:44,175 - utils - ERROR - Error scraping channel CheMed123: 'Message' object does not support item assignment
+2025-07-12 15:24:44,176 - utils - INFO - Finished scraping 0 messages and 0 images from CheMed123.
+2025-07-12 15:24:53,026 - utils - INFO - Starting scraping for channel: lobelia4cosmetics
+2025-07-12 15:24:53,765 - utils - ERROR - Error scraping channel lobelia4cosmetics: 'Message' object does not support item assignment
+2025-07-12 15:24:53,765 - utils - INFO - Finished scraping 0 messages and 0 images from lobelia4cosmetics.
+2025-07-12 15:24:58,925 - utils - INFO - Starting scraping for channel: tikvahpharma
+2025-07-12 15:24:59,280 - utils - ERROR - Error scraping channel tikvahpharma: 'Message' object does not support item assignment
+2025-07-12 15:24:59,280 - utils - INFO - Finished scraping 0 messages and 0 images from tikvahpharma.
+2025-07-12 15:25:04,286 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2025-07-12 15:25:04,287 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
+2025-07-12 15:25:04,298 - utils - INFO - Telegram client disconnected.
+2025-07-12 15:37:57,758 - utils - INFO - Connecting to Telegram...
+2025-07-12 15:37:57,760 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-12 15:37:57,881 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-12 15:38:06,816 - utils - INFO - Starting scraping for channel: CheMed123
+2025-07-12 15:38:07,179 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:38:08,960 - utils - INFO - Downloaded image for message ID 97 (Date: 2023-02-10) to data/raw/telegram_images/2023-02-10/CheMed123/97.jpg
+2025-07-12 15:38:08,961 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:38:12,050 - utils - INFO - Downloaded image for message ID 96 (Date: 2023-02-02) to data/raw/telegram_images/2023-02-02/CheMed123/96.jpg
+2025-07-12 15:38:12,051 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:38:13,690 - utils - INFO - Downloaded image for message ID 95 (Date: 2023-02-01) to data/raw/telegram_images/2023-02-01/CheMed123/95.jpg
+2025-07-12 15:38:13,691 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:38:15,577 - utils - INFO - Downloaded image for message ID 94 (Date: 2023-01-31) to data/raw/telegram_images/2023-01-31/CheMed123/94.jpg
+2025-07-12 15:38:15,578 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:38:19,139 - utils - INFO - Downloaded image for message ID 93 (Date: 2023-01-30) to data/raw/telegram_images/2023-01-30/CheMed123/93.jpg
+2025-07-12 15:38:19,139 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:38:22,162 - utils - INFO - Downloaded image for message ID 92 (Date: 2023-01-27) to data/raw/telegram_images/2023-01-27/CheMed123/92.jpg
+2025-07-12 15:38:22,162 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:38:24,765 - utils - INFO - Downloaded image for message ID 91 (Date: 2023-01-26) to data/raw/telegram_images/2023-01-26/CheMed123/91.jpg
+2025-07-12 15:38:24,766 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:38:30,141 - utils - INFO - Downloaded image for message ID 90 (Date: 2023-01-23) to data/raw/telegram_images/2023-01-23/CheMed123/90.jpg
+2025-07-12 15:38:30,141 - utils - INFO - Skipping non-image media for message ID 89 (Date: 2023-01-17, type: document)
+2025-07-12 15:38:30,141 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:38:33,048 - utils - INFO - Downloaded image for message ID 88 (Date: 2023-01-17) to data/raw/telegram_images/2023-01-17/CheMed123/88.jpg
+2025-07-12 15:38:33,049 - utils - INFO - Finished scraping 10 messages and 9 images from CheMed123.
+2025-07-12 15:38:33,066 - utils - ERROR - Could not scrape https://t.me/CheMed123: Object of type Channel is not JSON serializable
+2025-07-12 15:38:33,181 - utils - INFO - Starting scraping for channel: lobelia4cosmetics
+2025-07-12 15:38:33,329 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:38:35,150 - utils - INFO - Downloaded image for message ID 18532 (Date: 2025-07-12) to data/raw/telegram_images/2025-07-12/lobelia4cosmetics/18532.jpg
+2025-07-12 15:38:35,150 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:38:36,312 - utils - INFO - Downloaded image for message ID 18531 (Date: 2025-07-12) to data/raw/telegram_images/2025-07-12/lobelia4cosmetics/18531.jpg
+2025-07-12 15:38:36,313 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:38:39,409 - utils - INFO - Downloaded image for message ID 18530 (Date: 2025-07-12) to data/raw/telegram_images/2025-07-12/lobelia4cosmetics/18530.jpg
+2025-07-12 15:38:39,409 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:38:40,020 - utils - INFO - Downloaded image for message ID 18529 (Date: 2025-07-12) to data/raw/telegram_images/2025-07-12/lobelia4cosmetics/18529.jpg
+2025-07-12 15:38:40,021 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:38:40,927 - utils - INFO - Downloaded image for message ID 18528 (Date: 2025-07-12) to data/raw/telegram_images/2025-07-12/lobelia4cosmetics/18528.jpg
+2025-07-12 15:38:40,928 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:38:43,318 - utils - INFO - Downloaded image for message ID 18527 (Date: 2025-07-11) to data/raw/telegram_images/2025-07-11/lobelia4cosmetics/18527.jpg
+2025-07-12 15:38:43,318 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:38:46,317 - utils - INFO - Downloaded image for message ID 18526 (Date: 2025-07-11) to data/raw/telegram_images/2025-07-11/lobelia4cosmetics/18526.jpg
+2025-07-12 15:38:46,318 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:38:47,229 - utils - INFO - Downloaded image for message ID 18525 (Date: 2025-07-11) to data/raw/telegram_images/2025-07-11/lobelia4cosmetics/18525.jpg
+2025-07-12 15:38:47,230 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:38:48,771 - utils - INFO - Downloaded image for message ID 18524 (Date: 2025-07-11) to data/raw/telegram_images/2025-07-11/lobelia4cosmetics/18524.jpg
+2025-07-12 15:38:48,772 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:38:49,548 - utils - INFO - Downloaded image for message ID 18523 (Date: 2025-07-11) to data/raw/telegram_images/2025-07-11/lobelia4cosmetics/18523.jpg
+2025-07-12 15:38:49,548 - utils - INFO - Finished scraping 10 messages and 10 images from lobelia4cosmetics.
+2025-07-12 15:38:49,549 - utils - ERROR - Could not scrape https://t.me/lobelia4cosmetics: Object of type Channel is not JSON serializable
+2025-07-12 15:38:49,687 - utils - INFO - Starting scraping for channel: tikvahpharma
+2025-07-12 15:38:49,857 - utils - INFO - Skipping non-image media for message ID 172360 (Date: 2025-07-12, type: None)
+2025-07-12 15:38:49,857 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:38:51,169 - utils - INFO - Downloaded image for message ID 172350 (Date: 2025-07-12) to data/raw/telegram_images/2025-07-12/tikvahpharma/172350.jpg
+2025-07-12 15:38:51,170 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:38:53,114 - utils - INFO - Downloaded image for message ID 172345 (Date: 2025-07-12) to data/raw/telegram_images/2025-07-12/tikvahpharma/172345.jpg
+2025-07-12 15:38:53,115 - utils - INFO - Skipping non-image media for message ID 172332 (Date: 2025-07-12, type: None)
+2025-07-12 15:38:53,115 - utils - INFO - Finished scraping 10 messages and 2 images from tikvahpharma.
+2025-07-12 15:38:53,116 - utils - ERROR - Could not scrape https://t.me/tikvahpharma: Object of type Channel is not JSON serializable
+2025-07-12 15:38:53,116 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2025-07-12 15:38:53,117 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
+2025-07-12 15:38:53,128 - utils - INFO - Telegram client disconnected.
+2025-07-12 15:49:30,644 - utils - INFO - Connecting to Telegram...
+2025-07-12 15:49:30,646 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-12 15:49:40,657 - telethon.network.mtprotosender - WARNING - Attempt 1 at connecting failed: TimeoutError: 
+2025-07-12 15:49:41,809 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-12 15:50:03,209 - utils - INFO - Starting scraping for channel: CheMed123
+2025-07-12 15:50:10,754 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:50:11,729 - utils - INFO - Downloaded image for message ID 97 (Date: 2023-02-10) to data/raw/telegram_images/2023-02-10/CheMed123/97.jpg
+2025-07-12 15:50:11,730 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:50:12,869 - utils - INFO - Downloaded image for message ID 96 (Date: 2023-02-02) to data/raw/telegram_images/2023-02-02/CheMed123/96.jpg
+2025-07-12 15:50:12,869 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:50:13,687 - utils - INFO - Downloaded image for message ID 95 (Date: 2023-02-01) to data/raw/telegram_images/2023-02-01/CheMed123/95.jpg
+2025-07-12 15:50:13,687 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:50:14,584 - utils - INFO - Downloaded image for message ID 94 (Date: 2023-01-31) to data/raw/telegram_images/2023-01-31/CheMed123/94.jpg
+2025-07-12 15:50:14,585 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:50:15,870 - utils - INFO - Downloaded image for message ID 93 (Date: 2023-01-30) to data/raw/telegram_images/2023-01-30/CheMed123/93.jpg
+2025-07-12 15:50:15,871 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:50:17,508 - utils - INFO - Downloaded image for message ID 92 (Date: 2023-01-27) to data/raw/telegram_images/2023-01-27/CheMed123/92.jpg
+2025-07-12 15:50:17,509 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:50:18,456 - utils - INFO - Downloaded image for message ID 91 (Date: 2023-01-26) to data/raw/telegram_images/2023-01-26/CheMed123/91.jpg
+2025-07-12 15:50:18,457 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:50:20,206 - utils - INFO - Downloaded image for message ID 90 (Date: 2023-01-23) to data/raw/telegram_images/2023-01-23/CheMed123/90.jpg
+2025-07-12 15:50:20,206 - utils - INFO - Skipping non-image media for message ID 89 (Date: 2023-01-17, type: document)
+2025-07-12 15:50:20,207 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:50:21,825 - utils - INFO - Downloaded image for message ID 88 (Date: 2023-01-17) to data/raw/telegram_images/2023-01-17/CheMed123/88.jpg
+2025-07-12 15:50:21,826 - utils - INFO - Finished scraping 10 messages and 9 images from CheMed123.
+2025-07-12 15:50:21,845 - utils - INFO - Raw data for CheMed123 on 2023-02-10 saved to data/raw/telegram_messages/2023-02-10/CheMed123.json
+2025-07-12 15:50:21,845 - utils - INFO - Raw data for CheMed123 on 2023-02-02 saved to data/raw/telegram_messages/2023-02-02/CheMed123.json
+2025-07-12 15:50:21,845 - utils - INFO - Raw data for CheMed123 on 2023-02-01 saved to data/raw/telegram_messages/2023-02-01/CheMed123.json
+2025-07-12 15:50:21,846 - utils - INFO - Raw data for CheMed123 on 2023-01-31 saved to data/raw/telegram_messages/2023-01-31/CheMed123.json
+2025-07-12 15:50:21,846 - utils - INFO - Raw data for CheMed123 on 2023-01-30 saved to data/raw/telegram_messages/2023-01-30/CheMed123.json
+2025-07-12 15:50:21,847 - utils - INFO - Raw data for CheMed123 on 2023-01-27 saved to data/raw/telegram_messages/2023-01-27/CheMed123.json
+2025-07-12 15:50:21,847 - utils - INFO - Raw data for CheMed123 on 2023-01-26 saved to data/raw/telegram_messages/2023-01-26/CheMed123.json
+2025-07-12 15:50:21,848 - utils - INFO - Raw data for CheMed123 on 2023-01-23 saved to data/raw/telegram_messages/2023-01-23/CheMed123.json
+2025-07-12 15:50:21,848 - utils - INFO - Raw data for CheMed123 on 2023-01-17 saved to data/raw/telegram_messages/2023-01-17/CheMed123.json
+2025-07-12 15:50:31,271 - utils - INFO - Starting scraping for channel: lobelia4cosmetics
+2025-07-12 15:50:31,468 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:50:32,264 - utils - INFO - Downloaded image for message ID 18532 (Date: 2025-07-12) to data/raw/telegram_images/2025-07-12/lobelia4cosmetics/18532.jpg
+2025-07-12 15:50:32,264 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:50:32,598 - utils - INFO - Downloaded image for message ID 18531 (Date: 2025-07-12) to data/raw/telegram_images/2025-07-12/lobelia4cosmetics/18531.jpg
+2025-07-12 15:50:32,598 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:50:33,322 - utils - INFO - Downloaded image for message ID 18530 (Date: 2025-07-12) to data/raw/telegram_images/2025-07-12/lobelia4cosmetics/18530.jpg
+2025-07-12 15:50:33,323 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:50:33,510 - utils - INFO - Downloaded image for message ID 18529 (Date: 2025-07-12) to data/raw/telegram_images/2025-07-12/lobelia4cosmetics/18529.jpg
+2025-07-12 15:50:33,511 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:50:33,958 - utils - INFO - Downloaded image for message ID 18528 (Date: 2025-07-12) to data/raw/telegram_images/2025-07-12/lobelia4cosmetics/18528.jpg
+2025-07-12 15:50:33,958 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:50:34,843 - utils - INFO - Downloaded image for message ID 18527 (Date: 2025-07-11) to data/raw/telegram_images/2025-07-11/lobelia4cosmetics/18527.jpg
+2025-07-12 15:50:34,844 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:50:35,757 - utils - INFO - Downloaded image for message ID 18526 (Date: 2025-07-11) to data/raw/telegram_images/2025-07-11/lobelia4cosmetics/18526.jpg
+2025-07-12 15:50:35,758 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:50:36,271 - utils - INFO - Downloaded image for message ID 18525 (Date: 2025-07-11) to data/raw/telegram_images/2025-07-11/lobelia4cosmetics/18525.jpg
+2025-07-12 15:50:36,272 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:50:37,064 - utils - INFO - Downloaded image for message ID 18524 (Date: 2025-07-11) to data/raw/telegram_images/2025-07-11/lobelia4cosmetics/18524.jpg
+2025-07-12 15:50:37,065 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:50:37,772 - utils - INFO - Downloaded image for message ID 18523 (Date: 2025-07-11) to data/raw/telegram_images/2025-07-11/lobelia4cosmetics/18523.jpg
+2025-07-12 15:50:37,773 - utils - INFO - Finished scraping 10 messages and 10 images from lobelia4cosmetics.
+2025-07-12 15:50:37,774 - utils - INFO - Raw data for lobelia4cosmetics on 2025-07-12 saved to data/raw/telegram_messages/2025-07-12/lobelia4cosmetics.json
+2025-07-12 15:50:37,775 - utils - INFO - Raw data for lobelia4cosmetics on 2025-07-11 saved to data/raw/telegram_messages/2025-07-11/lobelia4cosmetics.json
+2025-07-12 15:50:42,929 - utils - INFO - Starting scraping for channel: tikvahpharma
+2025-07-12 15:50:43,108 - utils - INFO - Skipping non-image media for message ID 172360 (Date: 2025-07-12, type: None)
+2025-07-12 15:50:43,108 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:50:44,071 - utils - INFO - Downloaded image for message ID 172350 (Date: 2025-07-12) to data/raw/telegram_images/2025-07-12/tikvahpharma/172350.jpg
+2025-07-12 15:50:44,071 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:50:45,223 - utils - INFO - Downloaded image for message ID 172345 (Date: 2025-07-12) to data/raw/telegram_images/2025-07-12/tikvahpharma/172345.jpg
+2025-07-12 15:50:45,223 - utils - INFO - Skipping non-image media for message ID 172332 (Date: 2025-07-12, type: None)
+2025-07-12 15:50:45,223 - utils - INFO - Finished scraping 10 messages and 2 images from tikvahpharma.
+2025-07-12 15:50:45,224 - utils - INFO - Raw data for tikvahpharma on 2025-07-12 saved to data/raw/telegram_messages/2025-07-12/tikvahpharma.json
+2025-07-12 15:50:50,226 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2025-07-12 15:50:50,228 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
+2025-07-12 15:50:50,241 - utils - INFO - Telegram client disconnected.
+2025-07-12 15:54:16,383 - utils - INFO - Connecting to Telegram...
+2025-07-12 15:54:16,385 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-12 15:54:26,397 - telethon.network.mtprotosender - WARNING - Attempt 1 at connecting failed: TimeoutError: 
+2025-07-12 15:54:27,533 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-12 15:54:28,339 - utils - INFO - Starting scraping for channel: CheMed123
+2025-07-12 15:54:28,667 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:54:30,459 - utils - INFO - Downloaded image for message ID 97 (Date: 2023-02-10) to data/raw/telegram_images/2023-02-10/CheMed123/97.jpg
+2025-07-12 15:54:30,459 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:54:34,212 - utils - INFO - Downloaded image for message ID 96 (Date: 2023-02-02) to data/raw/telegram_images/2023-02-02/CheMed123/96.jpg
+2025-07-12 15:54:34,213 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:54:36,085 - utils - INFO - Downloaded image for message ID 95 (Date: 2023-02-01) to data/raw/telegram_images/2023-02-01/CheMed123/95.jpg
+2025-07-12 15:54:36,085 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:54:38,269 - utils - INFO - Downloaded image for message ID 94 (Date: 2023-01-31) to data/raw/telegram_images/2023-01-31/CheMed123/94.jpg
+2025-07-12 15:54:38,270 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:54:40,419 - utils - INFO - Downloaded image for message ID 93 (Date: 2023-01-30) to data/raw/telegram_images/2023-01-30/CheMed123/93.jpg
+2025-07-12 15:54:40,420 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:54:43,184 - utils - INFO - Downloaded image for message ID 92 (Date: 2023-01-27) to data/raw/telegram_images/2023-01-27/CheMed123/92.jpg
+2025-07-12 15:54:43,184 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:54:44,180 - utils - INFO - Downloaded image for message ID 91 (Date: 2023-01-26) to data/raw/telegram_images/2023-01-26/CheMed123/91.jpg
+2025-07-12 15:54:44,181 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:54:48,113 - utils - INFO - Downloaded image for message ID 90 (Date: 2023-01-23) to data/raw/telegram_images/2023-01-23/CheMed123/90.jpg
+2025-07-12 15:54:48,113 - utils - INFO - Skipping non-image media for message ID 89 (Date: 2023-01-17, type: document)
+2025-07-12 15:54:48,114 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:54:50,453 - utils - INFO - Downloaded image for message ID 88 (Date: 2023-01-17) to data/raw/telegram_images/2023-01-17/CheMed123/88.jpg
+2025-07-12 15:54:50,454 - utils - INFO - Finished scraping 10 messages and 9 images from CheMed123.
+2025-07-12 15:54:50,468 - utils - INFO - Raw data for CheMed123 on 2023-02-10 saved to data/raw/telegram_messages/2023-02-10/CheMed123.json
+2025-07-12 15:54:50,468 - utils - INFO - Raw data for CheMed123 on 2023-02-02 saved to data/raw/telegram_messages/2023-02-02/CheMed123.json
+2025-07-12 15:54:50,469 - utils - INFO - Raw data for CheMed123 on 2023-02-01 saved to data/raw/telegram_messages/2023-02-01/CheMed123.json
+2025-07-12 15:54:50,469 - utils - INFO - Raw data for CheMed123 on 2023-01-31 saved to data/raw/telegram_messages/2023-01-31/CheMed123.json
+2025-07-12 15:54:50,469 - utils - INFO - Raw data for CheMed123 on 2023-01-30 saved to data/raw/telegram_messages/2023-01-30/CheMed123.json
+2025-07-12 15:54:50,470 - utils - INFO - Raw data for CheMed123 on 2023-01-27 saved to data/raw/telegram_messages/2023-01-27/CheMed123.json
+2025-07-12 15:54:50,470 - utils - INFO - Raw data for CheMed123 on 2023-01-26 saved to data/raw/telegram_messages/2023-01-26/CheMed123.json
+2025-07-12 15:54:50,471 - utils - INFO - Raw data for CheMed123 on 2023-01-23 saved to data/raw/telegram_messages/2023-01-23/CheMed123.json
+2025-07-12 15:54:50,471 - utils - INFO - Raw data for CheMed123 on 2023-01-17 saved to data/raw/telegram_messages/2023-01-17/CheMed123.json
+2025-07-12 15:54:55,626 - utils - INFO - Starting scraping for channel: lobelia4cosmetics
+2025-07-12 15:54:55,802 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:54:57,651 - utils - INFO - Downloaded image for message ID 18532 (Date: 2025-07-12) to data/raw/telegram_images/2025-07-12/lobelia4cosmetics/18532.jpg
+2025-07-12 15:54:57,651 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:54:58,276 - utils - INFO - Downloaded image for message ID 18531 (Date: 2025-07-12) to data/raw/telegram_images/2025-07-12/lobelia4cosmetics/18531.jpg
+2025-07-12 15:54:58,278 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:54:59,912 - utils - INFO - Downloaded image for message ID 18530 (Date: 2025-07-12) to data/raw/telegram_images/2025-07-12/lobelia4cosmetics/18530.jpg
+2025-07-12 15:54:59,913 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:55:00,360 - utils - INFO - Downloaded image for message ID 18529 (Date: 2025-07-12) to data/raw/telegram_images/2025-07-12/lobelia4cosmetics/18529.jpg
+2025-07-12 15:55:00,361 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:55:00,992 - utils - INFO - Downloaded image for message ID 18528 (Date: 2025-07-12) to data/raw/telegram_images/2025-07-12/lobelia4cosmetics/18528.jpg
+2025-07-12 15:55:00,992 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:55:04,270 - utils - INFO - Downloaded image for message ID 18527 (Date: 2025-07-11) to data/raw/telegram_images/2025-07-11/lobelia4cosmetics/18527.jpg
+2025-07-12 15:55:04,271 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:55:07,047 - utils - INFO - Downloaded image for message ID 18526 (Date: 2025-07-11) to data/raw/telegram_images/2025-07-11/lobelia4cosmetics/18526.jpg
+2025-07-12 15:55:07,047 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:55:08,229 - utils - INFO - Downloaded image for message ID 18525 (Date: 2025-07-11) to data/raw/telegram_images/2025-07-11/lobelia4cosmetics/18525.jpg
+2025-07-12 15:55:08,229 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:55:10,433 - utils - INFO - Downloaded image for message ID 18524 (Date: 2025-07-11) to data/raw/telegram_images/2025-07-11/lobelia4cosmetics/18524.jpg
+2025-07-12 15:55:10,433 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:55:11,924 - utils - INFO - Downloaded image for message ID 18523 (Date: 2025-07-11) to data/raw/telegram_images/2025-07-11/lobelia4cosmetics/18523.jpg
+2025-07-12 15:55:11,924 - utils - INFO - Finished scraping 10 messages and 10 images from lobelia4cosmetics.
+2025-07-12 15:55:11,925 - utils - INFO - Raw data for lobelia4cosmetics on 2025-07-12 saved to data/raw/telegram_messages/2025-07-12/lobelia4cosmetics.json
+2025-07-12 15:55:11,926 - utils - INFO - Raw data for lobelia4cosmetics on 2025-07-11 saved to data/raw/telegram_messages/2025-07-11/lobelia4cosmetics.json
+2025-07-12 15:55:17,108 - utils - INFO - Starting scraping for channel: tikvahpharma
+2025-07-12 15:55:17,486 - utils - INFO - Skipping non-image media for message ID 172360 (Date: 2025-07-12, type: None)
+2025-07-12 15:55:17,486 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:55:19,997 - utils - INFO - Downloaded image for message ID 172350 (Date: 2025-07-12) to data/raw/telegram_images/2025-07-12/tikvahpharma/172350.jpg
+2025-07-12 15:55:19,998 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 15:55:23,837 - utils - INFO - Downloaded image for message ID 172345 (Date: 2025-07-12) to data/raw/telegram_images/2025-07-12/tikvahpharma/172345.jpg
+2025-07-12 15:55:23,837 - utils - INFO - Skipping non-image media for message ID 172332 (Date: 2025-07-12, type: None)
+2025-07-12 15:55:23,837 - utils - INFO - Finished scraping 10 messages and 2 images from tikvahpharma.
+2025-07-12 15:55:23,838 - utils - INFO - Raw data for tikvahpharma on 2025-07-12 saved to data/raw/telegram_messages/2025-07-12/tikvahpharma.json
+2025-07-12 15:55:28,840 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2025-07-12 15:55:28,841 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
+2025-07-12 15:55:28,854 - utils - INFO - Telegram client disconnected.
+2025-07-12 16:02:57,196 - utils - INFO - Raw table created or already exists.
+2025-07-12 16:03:07,880 - utils - INFO - Successfully loaded data/raw/telegram_messages/2023-02-10/CheMed123.json into raw table.
+2025-07-12 16:03:14,742 - utils - INFO - Successfully loaded data/raw/telegram_messages/2023-02-02/CheMed123.json into raw table.
+2025-07-12 16:03:14,745 - utils - INFO - Successfully loaded data/raw/telegram_messages/2023-02-01/CheMed123.json into raw table.
+2025-07-12 16:03:14,748 - utils - INFO - Successfully loaded data/raw/telegram_messages/2023-01-31/CheMed123.json into raw table.
+2025-07-12 16:03:14,751 - utils - INFO - Successfully loaded data/raw/telegram_messages/2023-01-30/CheMed123.json into raw table.
+2025-07-12 16:03:14,754 - utils - INFO - Successfully loaded data/raw/telegram_messages/2023-01-27/CheMed123.json into raw table.
+2025-07-12 16:03:14,756 - utils - INFO - Successfully loaded data/raw/telegram_messages/2023-01-26/CheMed123.json into raw table.
+2025-07-12 16:03:14,759 - utils - INFO - Successfully loaded data/raw/telegram_messages/2023-01-23/CheMed123.json into raw table.
+2025-07-12 16:03:14,762 - utils - INFO - Successfully loaded data/raw/telegram_messages/2023-01-17/CheMed123.json into raw table.
+2025-07-12 16:03:14,765 - utils - INFO - Successfully loaded data/raw/telegram_messages/2025-07-12/lobelia4cosmetics.json into raw table.
+2025-07-12 16:03:14,770 - utils - INFO - Successfully loaded data/raw/telegram_messages/2025-07-12/tikvahpharma.json into raw table.
+2025-07-12 16:03:14,773 - utils - INFO - Successfully loaded data/raw/telegram_messages/2025-07-11/lobelia4cosmetics.json into raw table.
+2025-07-12 16:39:16,303 - utils - INFO - Raw table created or already exists.
+2025-07-12 16:39:16,309 - utils - INFO - Successfully loaded data/raw/telegram_messages/2023-02-10/CheMed123.json into raw table.
+2025-07-12 16:39:16,312 - utils - INFO - Successfully loaded data/raw/telegram_messages/2023-02-02/CheMed123.json into raw table.
+2025-07-12 16:39:16,315 - utils - INFO - Successfully loaded data/raw/telegram_messages/2023-02-01/CheMed123.json into raw table.
+2025-07-12 16:39:16,318 - utils - INFO - Successfully loaded data/raw/telegram_messages/2023-01-31/CheMed123.json into raw table.
+2025-07-12 16:39:16,321 - utils - INFO - Successfully loaded data/raw/telegram_messages/2023-01-30/CheMed123.json into raw table.
+2025-07-12 16:39:16,324 - utils - INFO - Successfully loaded data/raw/telegram_messages/2023-01-27/CheMed123.json into raw table.
+2025-07-12 16:39:16,327 - utils - INFO - Successfully loaded data/raw/telegram_messages/2023-01-26/CheMed123.json into raw table.
+2025-07-12 16:39:16,330 - utils - INFO - Successfully loaded data/raw/telegram_messages/2023-01-23/CheMed123.json into raw table.
+2025-07-12 16:39:16,333 - utils - INFO - Successfully loaded data/raw/telegram_messages/2023-01-17/CheMed123.json into raw table.
+2025-07-12 16:39:16,336 - utils - INFO - Successfully loaded data/raw/telegram_messages/2025-07-12/lobelia4cosmetics.json into raw table.
+2025-07-12 16:39:16,341 - utils - INFO - Successfully loaded data/raw/telegram_messages/2025-07-12/tikvahpharma.json into raw table.
+2025-07-12 16:39:16,344 - utils - INFO - Successfully loaded data/raw/telegram_messages/2025-07-11/lobelia4cosmetics.json into raw table.
