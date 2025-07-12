@@ -1,0 +1,9 @@
+
+version: 2
+sources:
+  - name: telegram_source
+    database: datawarehouse # Replace with your database name
+    schema: raw
+    tables:
+      - name: telegram_messages
+        description: "Raw JSON data scraped from the Telegram channel."

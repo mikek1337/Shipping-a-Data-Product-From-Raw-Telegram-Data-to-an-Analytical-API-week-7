@@ -1,0 +1,200 @@
+2025-07-10 21:05:18,252 - utils - INFO - Connecting to Telegram...
+2025-07-10 21:05:18,252 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-10 21:05:18,380 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-10 21:05:20,610 - utils - ERROR - Could not scrape https://t.me/chemed_medical_equipment: No user has "chemed_medical_equipment" as username
+2025-07-10 21:05:20,911 - utils - INFO - Starting scraping for channel: lobelia4cosmetics
+2025-07-10 21:05:21,338 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-10 21:05:24,314 - utils - INFO - Downloaded image for message ID 18517 (Date: 2025-07-10) to data/raw/telegram_images/2025-07-10/lobelia4cosmetics/18517.jpg
+2025-07-10 21:05:24,314 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-10 21:05:26,621 - utils - INFO - Downloaded image for message ID 18516 (Date: 2025-07-10) to data/raw/telegram_images/2025-07-10/lobelia4cosmetics/18516.jpg
+2025-07-10 21:05:26,621 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-10 21:05:31,298 - utils - INFO - Downloaded image for message ID 18515 (Date: 2025-07-10) to data/raw/telegram_images/2025-07-10/lobelia4cosmetics/18515.jpg
+2025-07-10 21:05:31,298 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-10 21:05:31,795 - utils - INFO - Downloaded image for message ID 18514 (Date: 2025-07-10) to data/raw/telegram_images/2025-07-10/lobelia4cosmetics/18514.jpg
+2025-07-10 21:05:31,795 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-10 21:05:32,184 - utils - INFO - Downloaded image for message ID 18513 (Date: 2025-07-10) to data/raw/telegram_images/2025-07-10/lobelia4cosmetics/18513.jpg
+2025-07-10 21:05:32,185 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-10 21:05:33,800 - utils - INFO - Downloaded image for message ID 18512 (Date: 2025-07-10) to data/raw/telegram_images/2025-07-10/lobelia4cosmetics/18512.jpg
+2025-07-10 21:05:33,801 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-10 21:05:36,407 - utils - INFO - Downloaded image for message ID 18511 (Date: 2025-07-10) to data/raw/telegram_images/2025-07-10/lobelia4cosmetics/18511.jpg
+2025-07-10 21:05:36,407 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-10 21:05:40,208 - utils - INFO - Downloaded image for message ID 18510 (Date: 2025-07-10) to data/raw/telegram_images/2025-07-10/lobelia4cosmetics/18510.jpg
+2025-07-10 21:05:40,209 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-10 21:05:43,695 - utils - INFO - Downloaded image for message ID 18509 (Date: 2025-07-10) to data/raw/telegram_images/2025-07-10/lobelia4cosmetics/18509.jpg
+2025-07-10 21:05:43,695 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-10 21:05:55,078 - utils - INFO - Downloaded image for message ID 18508 (Date: 2025-07-10) to data/raw/telegram_images/2025-07-10/lobelia4cosmetics/18508.jpg
+2025-07-10 21:05:55,078 - utils - INFO - Finished scraping 10 messages and 10 images from lobelia4cosmetics.
+2025-07-10 21:05:55,084 - utils - INFO - Raw data for lobelia4cosmetics on 2025-07-10 saved to data/raw/telegram_messages/2025-07-10/lobelia4cosmetics.json
+2025-07-10 21:06:00,237 - utils - INFO - Starting scraping for channel: tikvahpharma
+2025-07-10 21:06:01,397 - utils - INFO - Skipping non-image media for message ID 172141 (Date: 2025-07-10, type: None)
+2025-07-10 21:06:01,398 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-10 21:06:08,803 - utils - INFO - Downloaded image for message ID 172139 (Date: 2025-07-10) to data/raw/telegram_images/2025-07-10/tikvahpharma/172139.jpg
+2025-07-10 21:06:08,803 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-10 21:06:11,877 - utils - INFO - Downloaded image for message ID 172138 (Date: 2025-07-10) to data/raw/telegram_images/2025-07-10/tikvahpharma/172138.jpg
+2025-07-10 21:06:11,878 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-10 21:06:23,689 - utils - INFO - Downloaded image for message ID 172137 (Date: 2025-07-10) to data/raw/telegram_images/2025-07-10/tikvahpharma/172137.jpg
+2025-07-10 21:06:23,689 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-10 21:06:33,376 - utils - INFO - Downloaded image for message ID 172136 (Date: 2025-07-10) to data/raw/telegram_images/2025-07-10/tikvahpharma/172136.jpg
+2025-07-10 21:06:33,377 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-10 21:06:46,152 - utils - INFO - Downloaded image for message ID 172135 (Date: 2025-07-10) to data/raw/telegram_images/2025-07-10/tikvahpharma/172135.jpg
+2025-07-10 21:06:46,153 - utils - INFO - Finished scraping 10 messages and 5 images from tikvahpharma.
+2025-07-10 21:06:46,153 - utils - INFO - Raw data for tikvahpharma on 2025-07-10 saved to data/raw/telegram_messages/2025-07-10/tikvahpharma.json
+2025-07-10 21:06:51,159 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2025-07-10 21:06:51,159 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
+2025-07-10 21:06:51,170 - utils - INFO - Telegram client disconnected.
+2025-07-10 23:01:38,521 - utils - INFO - Connecting to Telegram...
+2025-07-10 23:01:38,522 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-10 23:01:39,674 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-10 23:01:41,173 - utils - INFO - Starting scraping for channel: CheMed123
+2025-07-10 23:01:42,298 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-10 23:01:45,777 - utils - INFO - Downloaded image for message ID 97 (Date: 2023-02-10) to data/raw/telegram_images/2023-02-10/CheMed123/97.jpg
+2025-07-10 23:01:45,778 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-10 23:01:49,850 - utils - INFO - Downloaded image for message ID 96 (Date: 2023-02-02) to data/raw/telegram_images/2023-02-02/CheMed123/96.jpg
+2025-07-10 23:01:49,851 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-10 23:01:51,800 - utils - INFO - Downloaded image for message ID 95 (Date: 2023-02-01) to data/raw/telegram_images/2023-02-01/CheMed123/95.jpg
+2025-07-10 23:01:51,800 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-10 23:01:54,450 - utils - INFO - Downloaded image for message ID 94 (Date: 2023-01-31) to data/raw/telegram_images/2023-01-31/CheMed123/94.jpg
+2025-07-10 23:01:54,452 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-10 23:01:58,933 - utils - INFO - Downloaded image for message ID 93 (Date: 2023-01-30) to data/raw/telegram_images/2023-01-30/CheMed123/93.jpg
+2025-07-10 23:01:58,933 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-10 23:02:04,703 - utils - INFO - Downloaded image for message ID 92 (Date: 2023-01-27) to data/raw/telegram_images/2023-01-27/CheMed123/92.jpg
+2025-07-10 23:02:04,703 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-10 23:02:07,691 - utils - INFO - Downloaded image for message ID 91 (Date: 2023-01-26) to data/raw/telegram_images/2023-01-26/CheMed123/91.jpg
+2025-07-10 23:02:07,691 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-10 23:02:14,616 - utils - INFO - Downloaded image for message ID 90 (Date: 2023-01-23) to data/raw/telegram_images/2023-01-23/CheMed123/90.jpg
+2025-07-10 23:02:14,616 - utils - INFO - Skipping non-image media for message ID 89 (Date: 2023-01-17, type: document)
+2025-07-10 23:02:14,617 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-10 23:02:18,302 - utils - INFO - Downloaded image for message ID 88 (Date: 2023-01-17) to data/raw/telegram_images/2023-01-17/CheMed123/88.jpg
+2025-07-10 23:02:18,302 - utils - INFO - Finished scraping 10 messages and 9 images from CheMed123.
+2025-07-10 23:02:18,311 - utils - INFO - Raw data for CheMed123 on 2023-02-10 saved to data/raw/telegram_messages/2023-02-10/CheMed123.json
+2025-07-10 23:02:18,311 - utils - INFO - Raw data for CheMed123 on 2023-02-02 saved to data/raw/telegram_messages/2023-02-02/CheMed123.json
+2025-07-10 23:02:18,312 - utils - INFO - Raw data for CheMed123 on 2023-02-01 saved to data/raw/telegram_messages/2023-02-01/CheMed123.json
+2025-07-10 23:02:18,312 - utils - INFO - Raw data for CheMed123 on 2023-01-31 saved to data/raw/telegram_messages/2023-01-31/CheMed123.json
+2025-07-10 23:02:18,312 - utils - INFO - Raw data for CheMed123 on 2023-01-30 saved to data/raw/telegram_messages/2023-01-30/CheMed123.json
+2025-07-10 23:02:18,312 - utils - INFO - Raw data for CheMed123 on 2023-01-27 saved to data/raw/telegram_messages/2023-01-27/CheMed123.json
+2025-07-10 23:02:18,313 - utils - INFO - Raw data for CheMed123 on 2023-01-26 saved to data/raw/telegram_messages/2023-01-26/CheMed123.json
+2025-07-10 23:02:18,313 - utils - INFO - Raw data for CheMed123 on 2023-01-23 saved to data/raw/telegram_messages/2023-01-23/CheMed123.json
+2025-07-10 23:02:18,313 - utils - INFO - Raw data for CheMed123 on 2023-01-17 saved to data/raw/telegram_messages/2023-01-17/CheMed123.json
+2025-07-10 23:02:23,486 - utils - INFO - Starting scraping for channel: lobelia4cosmetics
+2025-07-10 23:02:23,655 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-10 23:02:24,262 - utils - INFO - Downloaded image for message ID 18517 (Date: 2025-07-10) to data/raw/telegram_images/2025-07-10/lobelia4cosmetics/18517.jpg
+2025-07-10 23:02:24,263 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-10 23:02:25,127 - utils - INFO - Downloaded image for message ID 18516 (Date: 2025-07-10) to data/raw/telegram_images/2025-07-10/lobelia4cosmetics/18516.jpg
+2025-07-10 23:02:25,127 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-10 23:02:27,596 - utils - INFO - Downloaded image for message ID 18515 (Date: 2025-07-10) to data/raw/telegram_images/2025-07-10/lobelia4cosmetics/18515.jpg
+2025-07-10 23:02:27,597 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-10 23:02:28,190 - utils - INFO - Downloaded image for message ID 18514 (Date: 2025-07-10) to data/raw/telegram_images/2025-07-10/lobelia4cosmetics/18514.jpg
+2025-07-10 23:02:28,190 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-10 23:02:28,823 - utils - INFO - Downloaded image for message ID 18513 (Date: 2025-07-10) to data/raw/telegram_images/2025-07-10/lobelia4cosmetics/18513.jpg
+2025-07-10 23:02:28,823 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-10 23:02:29,310 - utils - INFO - Downloaded image for message ID 18512 (Date: 2025-07-10) to data/raw/telegram_images/2025-07-10/lobelia4cosmetics/18512.jpg
+2025-07-10 23:02:29,310 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-10 23:02:29,970 - utils - INFO - Downloaded image for message ID 18511 (Date: 2025-07-10) to data/raw/telegram_images/2025-07-10/lobelia4cosmetics/18511.jpg
+2025-07-10 23:02:29,970 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-10 23:02:31,099 - utils - INFO - Downloaded image for message ID 18510 (Date: 2025-07-10) to data/raw/telegram_images/2025-07-10/lobelia4cosmetics/18510.jpg
+2025-07-10 23:02:31,099 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-10 23:02:32,867 - utils - INFO - Downloaded image for message ID 18509 (Date: 2025-07-10) to data/raw/telegram_images/2025-07-10/lobelia4cosmetics/18509.jpg
+2025-07-10 23:02:32,867 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-10 23:02:35,609 - utils - INFO - Downloaded image for message ID 18508 (Date: 2025-07-10) to data/raw/telegram_images/2025-07-10/lobelia4cosmetics/18508.jpg
+2025-07-10 23:02:35,609 - utils - INFO - Finished scraping 10 messages and 10 images from lobelia4cosmetics.
+2025-07-10 23:02:35,610 - utils - INFO - Raw data for lobelia4cosmetics on 2025-07-10 saved to data/raw/telegram_messages/2025-07-10/lobelia4cosmetics.json
+2025-07-10 23:02:40,797 - utils - INFO - Starting scraping for channel: tikvahpharma
+2025-07-10 23:02:40,985 - utils - INFO - Skipping non-image media for message ID 172141 (Date: 2025-07-10, type: None)
+2025-07-10 23:02:40,986 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-10 23:02:43,962 - utils - INFO - Downloaded image for message ID 172139 (Date: 2025-07-10) to data/raw/telegram_images/2025-07-10/tikvahpharma/172139.jpg
+2025-07-10 23:02:43,962 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-10 23:02:45,307 - utils - INFO - Downloaded image for message ID 172138 (Date: 2025-07-10) to data/raw/telegram_images/2025-07-10/tikvahpharma/172138.jpg
+2025-07-10 23:02:45,307 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-10 23:02:49,015 - utils - INFO - Downloaded image for message ID 172137 (Date: 2025-07-10) to data/raw/telegram_images/2025-07-10/tikvahpharma/172137.jpg
+2025-07-10 23:02:49,016 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-10 23:02:53,104 - utils - INFO - Downloaded image for message ID 172136 (Date: 2025-07-10) to data/raw/telegram_images/2025-07-10/tikvahpharma/172136.jpg
+2025-07-10 23:02:53,104 - telethon.client.downloads - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-10 23:02:58,459 - utils - INFO - Downloaded image for message ID 172135 (Date: 2025-07-10) to data/raw/telegram_images/2025-07-10/tikvahpharma/172135.jpg
+2025-07-10 23:02:58,459 - utils - INFO - Finished scraping 10 messages and 5 images from tikvahpharma.
+2025-07-10 23:02:58,460 - utils - INFO - Raw data for tikvahpharma on 2025-07-10 saved to data/raw/telegram_messages/2025-07-10/tikvahpharma.json
+2025-07-10 23:03:03,465 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2025-07-10 23:03:03,465 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
+2025-07-10 23:03:03,477 - utils - INFO - Telegram client disconnected.
+2025-07-11 21:27:58,356 - utils - ERROR - Error inserting/updating channel (CheMed123): not all arguments converted during string formatting
+2025-07-11 21:27:58,360 - utils - ERROR - Error inserting/updating channel (CheMed123): not all arguments converted during string formatting
+2025-07-11 21:27:58,360 - utils - ERROR - Error inserting/updating channel (CheMed123): not all arguments converted during string formatting
+2025-07-11 21:27:58,360 - utils - ERROR - Error inserting/updating channel (CheMed123): not all arguments converted during string formatting
+2025-07-11 21:27:58,360 - utils - ERROR - Error inserting/updating channel (CheMed123): not all arguments converted during string formatting
+2025-07-11 21:27:58,360 - utils - ERROR - Error inserting/updating channel (CheMed123): not all arguments converted during string formatting
+2025-07-11 21:27:58,360 - utils - ERROR - Error inserting/updating channel (CheMed123): not all arguments converted during string formatting
+2025-07-11 21:27:58,361 - utils - ERROR - Error inserting/updating channel (CheMed123): not all arguments converted during string formatting
+2025-07-11 21:27:58,361 - utils - ERROR - Error inserting/updating channel (CheMed123): not all arguments converted during string formatting
+2025-07-11 21:27:58,361 - utils - ERROR - Error inserting/updating channel (lobelia4cosmetics): not all arguments converted during string formatting
+2025-07-11 21:27:58,361 - utils - ERROR - Error inserting/updating channel (tikvahpharma): not all arguments converted during string formatting
+2025-07-11 21:31:43,463 - utils - ERROR - Error inserting/updating channel (CheMed123): not all arguments converted during string formatting
+2025-07-11 21:31:43,463 - utils - ERROR - Error inserting/updating channel (CheMed123): not all arguments converted during string formatting
+2025-07-11 21:31:43,463 - utils - ERROR - Error inserting/updating channel (CheMed123): not all arguments converted during string formatting
+2025-07-11 21:31:43,464 - utils - ERROR - Error inserting/updating channel (CheMed123): not all arguments converted during string formatting
+2025-07-11 21:31:43,464 - utils - ERROR - Error inserting/updating channel (CheMed123): not all arguments converted during string formatting
+2025-07-11 21:31:43,464 - utils - ERROR - Error inserting/updating channel (CheMed123): not all arguments converted during string formatting
+2025-07-11 21:31:43,464 - utils - ERROR - Error inserting/updating channel (CheMed123): not all arguments converted during string formatting
+2025-07-11 21:31:43,464 - utils - ERROR - Error inserting/updating channel (CheMed123): not all arguments converted during string formatting
+2025-07-11 21:31:43,464 - utils - ERROR - Error inserting/updating channel (CheMed123): not all arguments converted during string formatting
+2025-07-11 21:31:43,465 - utils - ERROR - Error inserting/updating channel (lobelia4cosmetics): not all arguments converted during string formatting
+2025-07-11 21:31:43,465 - utils - ERROR - Error inserting/updating channel (tikvahpharma): not all arguments converted during string formatting
+2025-07-11 22:08:44,970 - utils - INFO - Raw table created or already exists.
+2025-07-11 22:08:44,976 - utils - INFO - Successfully loaded data/raw/telegram_messages/2023-02-10/CheMed123.json into raw table.
+2025-07-11 22:08:44,979 - utils - INFO - Successfully loaded data/raw/telegram_messages/2023-02-02/CheMed123.json into raw table.
+2025-07-11 22:08:44,981 - utils - INFO - Successfully loaded data/raw/telegram_messages/2023-02-01/CheMed123.json into raw table.
+2025-07-11 22:08:44,984 - utils - INFO - Successfully loaded data/raw/telegram_messages/2023-01-31/CheMed123.json into raw table.
+2025-07-11 22:08:44,986 - utils - INFO - Successfully loaded data/raw/telegram_messages/2023-01-30/CheMed123.json into raw table.
+2025-07-11 22:08:44,988 - utils - INFO - Successfully loaded data/raw/telegram_messages/2023-01-27/CheMed123.json into raw table.
+2025-07-11 22:08:44,990 - utils - INFO - Successfully loaded data/raw/telegram_messages/2023-01-26/CheMed123.json into raw table.
+2025-07-11 22:08:44,992 - utils - INFO - Successfully loaded data/raw/telegram_messages/2023-01-23/CheMed123.json into raw table.
+2025-07-11 22:08:44,994 - utils - INFO - Successfully loaded data/raw/telegram_messages/2023-01-17/CheMed123.json into raw table.
+2025-07-11 22:08:44,997 - utils - INFO - Successfully loaded data/raw/telegram_messages/2025-07-10/lobelia4cosmetics.json into raw table.
+2025-07-11 22:08:45,000 - utils - INFO - Successfully loaded data/raw/telegram_messages/2025-07-10/tikvahpharma.json into raw table.
+2025-07-12 03:33:15,326 - utils - INFO - Raw table created or already exists.
+2025-07-12 03:33:15,327 - utils - ERROR - Error loading data/raw/telegram_messages/2023-02-10/CheMed123.json: list indices must be integers or slices, not str
+2025-07-12 03:33:15,327 - utils - ERROR - Error loading data/raw/telegram_messages/2023-02-02/CheMed123.json: list indices must be integers or slices, not str
+2025-07-12 03:33:15,327 - utils - ERROR - Error loading data/raw/telegram_messages/2023-02-01/CheMed123.json: list indices must be integers or slices, not str
+2025-07-12 03:33:15,327 - utils - ERROR - Error loading data/raw/telegram_messages/2023-01-31/CheMed123.json: list indices must be integers or slices, not str
+2025-07-12 03:33:15,327 - utils - ERROR - Error loading data/raw/telegram_messages/2023-01-30/CheMed123.json: list indices must be integers or slices, not str
+2025-07-12 03:33:15,328 - utils - ERROR - Error loading data/raw/telegram_messages/2023-01-27/CheMed123.json: list indices must be integers or slices, not str
+2025-07-12 03:33:15,328 - utils - ERROR - Error loading data/raw/telegram_messages/2023-01-26/CheMed123.json: list indices must be integers or slices, not str
+2025-07-12 03:33:15,328 - utils - ERROR - Error loading data/raw/telegram_messages/2023-01-23/CheMed123.json: list indices must be integers or slices, not str
+2025-07-12 03:33:15,328 - utils - ERROR - Error loading data/raw/telegram_messages/2023-01-17/CheMed123.json: list indices must be integers or slices, not str
+2025-07-12 03:33:15,329 - utils - ERROR - Error loading data/raw/telegram_messages/2025-07-10/lobelia4cosmetics.json: list indices must be integers or slices, not str
+2025-07-12 03:33:15,329 - utils - ERROR - Error loading data/raw/telegram_messages/2025-07-10/tikvahpharma.json: list indices must be integers or slices, not str
+2025-07-12 03:40:22,342 - utils - INFO - Raw table created or already exists.
+2025-07-12 03:45:31,880 - utils - INFO - Raw table created or already exists.
+2025-07-12 03:45:31,881 - utils - ERROR - Error loading data/raw/telegram_messages/2023-02-10/CheMed123.json: can't adapt type 'dict'
+2025-07-12 03:45:31,881 - utils - ERROR - Error loading data/raw/telegram_messages/2023-02-02/CheMed123.json: can't adapt type 'dict'
+2025-07-12 03:45:31,881 - utils - ERROR - Error loading data/raw/telegram_messages/2023-02-01/CheMed123.json: can't adapt type 'dict'
+2025-07-12 03:45:31,881 - utils - ERROR - Error loading data/raw/telegram_messages/2023-01-31/CheMed123.json: can't adapt type 'dict'
+2025-07-12 03:45:31,881 - utils - ERROR - Error loading data/raw/telegram_messages/2023-01-30/CheMed123.json: can't adapt type 'dict'
+2025-07-12 03:45:31,881 - utils - ERROR - Error loading data/raw/telegram_messages/2023-01-27/CheMed123.json: can't adapt type 'dict'
+2025-07-12 03:45:31,881 - utils - ERROR - Error loading data/raw/telegram_messages/2023-01-26/CheMed123.json: can't adapt type 'dict'
+2025-07-12 03:45:31,882 - utils - ERROR - Error loading data/raw/telegram_messages/2023-01-23/CheMed123.json: can't adapt type 'dict'
+2025-07-12 03:45:31,882 - utils - ERROR - Error loading data/raw/telegram_messages/2023-01-17/CheMed123.json: can't adapt type 'dict'
+2025-07-12 03:45:31,882 - utils - ERROR - Error loading data/raw/telegram_messages/2025-07-10/lobelia4cosmetics.json: can't adapt type 'dict'
+2025-07-12 03:45:31,882 - utils - ERROR - Error loading data/raw/telegram_messages/2025-07-10/tikvahpharma.json: can't adapt type 'dict'
+2025-07-12 11:43:00,885 - utils - INFO - Raw table created or already exists.
+2025-07-12 11:43:00,885 - utils - ERROR - Error loading data/raw/telegram_messages/2023-02-10/CheMed123.json: can't adapt type 'dict'
+2025-07-12 11:43:00,885 - utils - ERROR - Error loading data/raw/telegram_messages/2023-02-02/CheMed123.json: can't adapt type 'dict'
+2025-07-12 11:43:00,886 - utils - ERROR - Error loading data/raw/telegram_messages/2023-02-01/CheMed123.json: can't adapt type 'dict'
+2025-07-12 11:43:00,886 - utils - ERROR - Error loading data/raw/telegram_messages/2023-01-31/CheMed123.json: can't adapt type 'dict'
+2025-07-12 11:43:00,886 - utils - ERROR - Error loading data/raw/telegram_messages/2023-01-30/CheMed123.json: can't adapt type 'dict'
+2025-07-12 11:43:00,887 - utils - ERROR - Error loading data/raw/telegram_messages/2023-01-27/CheMed123.json: can't adapt type 'dict'
+2025-07-12 11:43:00,887 - utils - ERROR - Error loading data/raw/telegram_messages/2023-01-26/CheMed123.json: can't adapt type 'dict'
+2025-07-12 11:43:00,887 - utils - ERROR - Error loading data/raw/telegram_messages/2023-01-23/CheMed123.json: can't adapt type 'dict'
+2025-07-12 11:43:00,887 - utils - ERROR - Error loading data/raw/telegram_messages/2023-01-17/CheMed123.json: can't adapt type 'dict'
+2025-07-12 11:43:00,888 - utils - ERROR - Error loading data/raw/telegram_messages/2025-07-10/lobelia4cosmetics.json: can't adapt type 'dict'
+2025-07-12 11:43:00,889 - utils - ERROR - Error loading data/raw/telegram_messages/2025-07-10/tikvahpharma.json: can't adapt type 'dict'
+2025-07-12 11:43:33,448 - utils - INFO - Raw table created or already exists.
+2025-07-12 11:43:33,459 - utils - INFO - Successfully loaded data/raw/telegram_messages/2023-02-10/CheMed123.json into raw table.
+2025-07-12 11:43:33,462 - utils - INFO - Successfully loaded data/raw/telegram_messages/2023-02-02/CheMed123.json into raw table.
+2025-07-12 11:43:33,465 - utils - INFO - Successfully loaded data/raw/telegram_messages/2023-02-01/CheMed123.json into raw table.
+2025-07-12 11:43:33,468 - utils - INFO - Successfully loaded data/raw/telegram_messages/2023-01-31/CheMed123.json into raw table.
+2025-07-12 11:43:33,471 - utils - INFO - Successfully loaded data/raw/telegram_messages/2023-01-30/CheMed123.json into raw table.
+2025-07-12 11:43:33,474 - utils - INFO - Successfully loaded data/raw/telegram_messages/2023-01-27/CheMed123.json into raw table.
+2025-07-12 11:43:33,476 - utils - INFO - Successfully loaded data/raw/telegram_messages/2023-01-26/CheMed123.json into raw table.
+2025-07-12 11:43:33,479 - utils - INFO - Successfully loaded data/raw/telegram_messages/2023-01-23/CheMed123.json into raw table.
+2025-07-12 11:43:33,481 - utils - INFO - Successfully loaded data/raw/telegram_messages/2023-01-17/CheMed123.json into raw table.
+2025-07-12 11:43:33,485 - utils - INFO - Successfully loaded data/raw/telegram_messages/2025-07-10/lobelia4cosmetics.json into raw table.
+2025-07-12 11:43:33,490 - utils - INFO - Successfully loaded data/raw/telegram_messages/2025-07-10/tikvahpharma.json into raw table.
