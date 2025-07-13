@@ -16,6 +16,25 @@ phone_number=os.getenv('PHONE')
 config = configparser.ConfigParser()
 config.read('config.ini')
 async def scrape_telegram_channel(client, channel_entity, channel_name, channel_id, limit=None):
+    """
+    Asynchronously scrapes messages and media from a single Telegram channel.
+
+    Args:
+        client (telethon.sync.TelegramClient): The active and authenticated Telethon client instance.
+        channel_entity (telethon.tl.types.Channel or telethon.tl.types.Chat): The Telethon entity object
+                                                                                representing the target channel.
+        channel_name (str): A human-readable name for the channel (e.g., its username or title).
+                            Used for logging and file path creation.
+        channel_id (str): A unique identifier for the channel, typically a key from the configuration.
+                          Used to associate scraped data with the specific channel.
+        limit (int, optional): The maximum number of messages to scrape. If None, scrapes all available messages.
+
+    Returns:
+        tuple: A tuple containing:
+            - messages_by_date (defaultdict): A dictionary where keys are date strings (YYYY-MM-DD)
+                                              and values are lists of message dictionaries scraped on that date.
+            - channel_name (str): The normalized channel name used for file operations.
+    """
     channel_name = getattr(channel_entity, 'username', getattr(channel_entity, 'title', 'unknown_channel')).replace('@', '')
     logger.info(f"Starting scraping for channel: {channel_name}")
 
@@ -90,6 +109,18 @@ async def scrape_telegram_channel(client, channel_entity, channel_name, channel_
 
 
 async def main():
+    """
+    Main asynchronous function to connect to Telegram, authenticate, and orchestrate
+    the scraping of multiple configured Telegram channels. It saves scraped messages
+    and downloads media to structured JSON files and image directories, respectively.
+
+    Args:
+        None
+
+    Returns:
+        None: The function performs operations (scraping, saving files) and does not
+              return any value directly.
+    """
     client = TelegramClient('channel_scraper', api_id, api_hash)
     
     logger.info("Connecting to Telegram...")
