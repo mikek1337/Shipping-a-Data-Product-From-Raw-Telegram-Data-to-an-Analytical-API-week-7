@@ -27,7 +27,13 @@ def create_raw_table(conn):
             cur.close()
 
 def load_raw_json(conn, file_path):
-    """Loads a single raw JSON file into the raw table."""
+    """
+    Loads raw JSON data from a file into the 'raw_messages' table.
+
+    Args:
+        conn (sqlite3.Connection): The database connection object.
+        file_path (str): The full path to the JSON file.
+    """
     try:
         with open(file_path, 'r') as f:
             raw_json = f.read()
