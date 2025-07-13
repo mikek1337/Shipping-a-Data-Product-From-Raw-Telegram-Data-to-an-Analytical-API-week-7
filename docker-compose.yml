@@ -4,7 +4,7 @@ version: '3.8' # Specify the Docker Compose file format version
 services:
   # PostgreSQL Database Service
   db:
-    image: postgres:13 # Use a specific version of PostgreSQL for stability
+    image: postgres:latest # Use a specific version of PostgreSQL for stability
     container_name: telegram_postgres_db
     ports:
       - "5432:5432" # Map container port 5432 to host port 5432
