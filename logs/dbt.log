@@ -1,0 +1,93 @@
+[0m23:23:31.859995 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f256ed63230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f256dbbbd90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f256dbbb9d0>]}
+
+
+============================== 23:23:31.868878 | 293f7dac-d092-46b0-9a2a-58249088c7bb ==============================
+[0m23:23:31.868878 [info ] [MainThread]: Running with dbt=1.10.3
+[0m23:23:31.869499 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/mikiask/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt init telegram_analysis', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m23:23:31.971258 [info ] [MainThread]: Creating dbt configuration folder at /home/mikiask/.dbt
+[0m23:23:31.972397 [debug] [MainThread]: Starter project path: /home/mikiask/anotherproject/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-week-7/.venv/lib/python3.13/site-packages/dbt/include/starter_project
+[0m23:23:31.974386 [info ] [MainThread]: 
+Your new dbt project "telegram_analysis" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m23:23:31.974717 [info ] [MainThread]: Setting up your profile.
+[0m23:24:34.492574 [info ] [MainThread]: Profile telegram_analysis written to /home/mikiask/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m23:24:34.497217 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 62.686768, "process_in_blocks": "73648", "process_kernel_time": 0.165769, "process_mem_max_rss": "104748", "process_out_blocks": "368", "process_user_time": 1.19451}
+[0m23:24:34.497693 [debug] [MainThread]: Command `dbt init` succeeded at 23:24:34.497601 after 62.69 seconds
+[0m23:24:34.498078 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f256db1d810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f256e151130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f256db04490>]}
+[0m23:24:34.498461 [debug] [MainThread]: Flushing usage events
+[0m23:24:37.222339 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:30:56.849533 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fafe836f230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fafe9a79d10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fafe71cfc50>]}
+
+
+============================== 12:30:56.859244 | 35b02048-c3df-492a-aea0-051c486acdae ==============================
+[0m12:30:56.859244 [info ] [MainThread]: Running with dbt=1.10.3
+[0m12:30:56.860124 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/mikiask/.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt docs generate', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m12:30:56.860948 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/mikiask/anotherproject/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-week-7/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m12:30:56.862529 [debug] [MainThread]: Resource report: {"command_name": "generate", "command_success": false, "command_wall_clock_time": 0.09609264, "process_in_blocks": "152", "process_kernel_time": 0.141064, "process_mem_max_rss": "102528", "process_out_blocks": "56", "process_user_time": 1.944423}
+[0m12:30:56.863352 [debug] [MainThread]: Command `dbt docs generate` failed at 12:30:56.863197 after 0.10 seconds
+[0m12:30:56.863968 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fafe71d2060>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fafe7210ef0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fafe7268e20>]}
+[0m12:30:56.864615 [debug] [MainThread]: Flushing usage events
+[0m12:30:58.818501 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:58:50.102986 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f44ca067230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f44cb775d10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f44c8ec7c50>]}
+
+
+============================== 15:58:50.110128 | b1286980-4e8d-46ef-9946-d543bcae20c5 ==============================
+[0m15:58:50.110128 [info ] [MainThread]: Running with dbt=1.10.3
+[0m15:58:50.111039 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/mikiask/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'invocation_command': 'dbt init', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:59:00.885533 [debug] [MainThread]: Starter project path: /home/mikiask/anotherproject/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-week-7/.venv/lib/python3.13/site-packages/dbt/include/starter_project
+[0m15:59:00.890299 [info ] [MainThread]: 
+Your new dbt project "telegram_analysis" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:59:00.891416 [info ] [MainThread]: Setting up your profile.
+[0m15:59:56.720553 [info ] [MainThread]: Profile telegram_analysis written to /home/mikiask/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m15:59:56.725864 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 66.70564, "process_in_blocks": "43904", "process_kernel_time": 0.241673, "process_mem_max_rss": "106268", "process_out_blocks": "208", "process_user_time": 2.078089}
+[0m15:59:56.726861 [debug] [MainThread]: Command `dbt init` succeeded at 15:59:56.726675 after 66.71 seconds
+[0m15:59:56.727579 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f44c8701a70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f44c944d130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f44c8e18490>]}
+[0m15:59:56.728328 [debug] [MainThread]: Flushing usage events
+[0m15:59:58.706246 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:35:51.207902 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f183f067230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1840771d10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f183dec7c50>]}
+
+
+============================== 16:35:51.213515 | 60edeba1-33b2-49e8-a9ab-49634945c68e ==============================
+[0m16:35:51.213515 [info ] [MainThread]: Running with dbt=1.10.3
+[0m16:35:51.214723 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/mikiask/.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m16:35:51.215648 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/mikiask/anotherproject/Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-week-7/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m16:35:51.217248 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.09590844, "process_in_blocks": "0", "process_kernel_time": 0.157108, "process_mem_max_rss": "102304", "process_out_blocks": "8", "process_user_time": 2.049987}
+[0m16:35:51.218238 [debug] [MainThread]: Command `dbt run` failed at 16:35:51.218081 after 0.10 seconds
+[0m16:35:51.218868 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f183dec9f30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f183df04ef0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f183df60e20>]}
+[0m16:35:51.219526 [debug] [MainThread]: Flushing usage events
+[0m16:35:54.217033 [debug] [MainThread]: An error was encountered while trying to flush usage events

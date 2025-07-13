@@ -1,0 +1,8 @@
+version: 2
+sources:
+  - name: telegram_source
+    database: datawarehouse
+    schema: raw
+    tables:
+      - name: telegram_messages
+        description: "Raw JSON data scraped from the Telegram channel."
