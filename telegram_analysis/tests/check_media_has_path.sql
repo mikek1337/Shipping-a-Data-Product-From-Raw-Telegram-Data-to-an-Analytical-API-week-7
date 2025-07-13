@@ -1,4 +1,4 @@
 SELECT
     message_id
 FROM {{ ref('fct_messages') }}
-WHERE media_present = TRUE AND media_path IS NULL
+WHERE media_present = FALSE AND media_path IS NOT NULL
