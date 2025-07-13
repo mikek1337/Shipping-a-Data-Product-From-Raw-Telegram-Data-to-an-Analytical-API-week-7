@@ -1,0 +1,59 @@
+# docker-compose.yml
+version: '3.8' # Specify the Docker Compose file format version
+
+services:
+  # PostgreSQL Database Service
+  db:
+    image: postgres:13 # Use a specific version of PostgreSQL for stability
+    container_name: telegram_postgres_db
+    ports:
+      - "5432:5432" # Map container port 5432 to host port 5432
+    environment:
+      # These environment variables configure the PostgreSQL database
+      POSTGRES_DB: ${DATABASE:-raw_telegram} # Use DATABASE env var, default to raw_telegram
+      POSTGRES_USER: ${USERNAME:-postgres}   # Use USERNAME env var, default to postgres
+      POSTGRES_PASSWORD: ${PASSWORD:-}       # Use PASSWORD env var, default to empty string
+    volumes:
+      # Persist PostgreSQL data to a named volume to prevent data loss
+      - db_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # Telegram Data Pipeline Service
+  telegram_pipeline:
+    build:
+      context: . # Build the Docker image from the current directory (where Dockerfile is located)
+      dockerfile: Dockerfile # Specify the Dockerfile name
+    container_name: telegram_data_pipeline
+    environment:
+      # Pass environment variables from the host to the container.
+      # These variables are required by your Python scripts and dbt profiles.
+      # You should define these in a .env file in the same directory as docker-compose.yml
+      APP_ID: ${APP_ID}
+      APP_KEY: ${APP_KEY}
+      PHONE: ${PHONE}
+      HOST: db # Use the service name 'db' as the hostname for PostgreSQL
+      PASSWORD: ${PASSWORD}
+      USERNAME: ${USERNAME}
+      PORT: 5432 # PostgreSQL default port inside the Docker network
+      DATABASE: ${DATABASE}
+    volumes:
+      # Optional: Persist scraped raw data and logs to host volumes
+      # This ensures that scraped files are available on your host machine
+      # and logs are not lost when the container is removed.
+      - ./data/raw:/app/data/raw
+      - ./logs:/app/logs
+    depends_on:
+      # Ensure the database service is healthy before starting the pipeline
+      db:
+        condition: service_healthy
+    # If you want to keep the container running after the pipeline completes (e.g., for debugging)
+    # uncomment the following line. Otherwise, it will exit after CMD finishes.
+    # restart: "no"
+
+# Define named volumes for data persistence
+volumes:
+  db_data: # Volume for PostgreSQL data
