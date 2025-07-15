@@ -28,6 +28,9 @@ services:
       context: . # Build the Docker image from the current directory (where Dockerfile is located)
       dockerfile: Dockerfile # Specify the Dockerfile name
     container_name: telegram_data_pipeline
+    ports:
+      - "3000:3000"
+      - "8000:8000"
     environment:
       # Pass environment variables from the host to the container.
       # These variables are required by your Python scripts and dbt profiles.

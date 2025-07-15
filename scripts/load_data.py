@@ -17,5 +17,9 @@ def load_channel():
     for folder in message_folders:
         for file in os.listdir(os.path.join(default_path, folder)):
             load_raw_json(conn=db.connection, file_path=os.path.join(default_path, folder, file))
+
+if __name__ == "__main__":
+    load_channel()
+
               
 

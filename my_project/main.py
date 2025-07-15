@@ -15,7 +15,7 @@ def get_top_products(limit:Union[int, None]=10):
 
 @app.get('/channels/{channel_name}/activity', response_model=ChannelActivities, status_code=status.HTTP_200_OK)
 def get_channel_activity(channel_name:str):
-    return {'channel':channel_name}
+    return db.channel_activity(channel_name)
 @app.get('/search/messages', response_model=List[TelegramMessageResponse], status_code=status.HTTP_200_OK)
 def search_messages(query:Union[str, None]=None):
     if db.test_connection() and query != None:

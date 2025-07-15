@@ -41,12 +41,10 @@ RUN mkdir -p data/raw/telegram-messages data/raw/telegram-images logs
 # The commands are executed in the sequence of your pipeline: scrape, load, test dbt, run dbt.
 CMD ["/bin/bash", "-c", "\
     echo 'Starting Telegram scraping...'; \
-    python script/scrapy.py; \
-    echo 'Scraping complete. Loading data to PostgreSQL...'; \
-    python script/load_data.py; \
-    echo 'Data loaded. Running dbt tests...'; \
-    cd telegram_analysis && dbt test; \
-    echo 'dbt tests complete. Running dbt models...'; \
-    dbt run; \
-    echo 'Pipeline execution complete.'; \
-"]
+    cd my_project/ && fastapi dev &\
+    cd ../scripts && dagster dev -f pipeline.py\
+    "]
+
+EXPOSE 8000
+EXPOSE 3000
+
