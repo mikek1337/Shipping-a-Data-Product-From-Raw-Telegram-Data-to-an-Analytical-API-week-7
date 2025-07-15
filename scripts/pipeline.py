@@ -43,6 +43,7 @@ Daily_schedule = ScheduleDefinition(
 
 defs = Definitions(
     assets=[*dbt_assets],
+
     resources={
         "dbt":my_dbt_resource
     },

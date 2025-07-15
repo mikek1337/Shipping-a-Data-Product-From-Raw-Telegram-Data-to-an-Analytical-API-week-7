@@ -81,43 +81,8 @@ channel2 = https://t.me/your_channel_link_2
 
 Follow these steps sequentially to run the entire data pipeline.
 
-### Scrape Telegram Data
-
-This script connects to the Telegram API and scrapes messages from the channels configured in `config.ini`. The raw data (JSON files and images) will be stored locally.
-
 ```
-python script/scrapy.py
-```
+docker compose up
+````
 
-- **Note:** The scraped data is stored in `data/raw`. Messages are specifically stored in `data/raw/telegram-messages/YYYY-MM-DD/channel_name.json`. Ensure the `data/raw` directory exists before running this script. The script will attempt to create necessary subdirectories.
-    
-- The first time you run `scrapy.py`, it will prompt you for a Telegram authentication code if your session is not authorized.
-    
-
-### Load Scraped Data to Database
-
-This script reads the locally stored raw JSON files and loads their content into the `raw.telegram_messages` table in your PostgreSQL database.
-
-```
-python script/load_data.py
-```
-
-### Run dbt Transformations and Tests
-
-Navigate into the dbt project directory to perform data transformations and run integrity tests.
-
-```
-cd telegram_analysis
-```
-
-First, run the dbt tests to ensure data quality and integrity:
-
-```
-dbt test
-```
-
-After the tests pass, run the dbt models to transform the raw data into the structured data mart:
-
-```
-dbt run
-
+![screenshot](Screenshot_20250715_223156.png)
