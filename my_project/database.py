@@ -79,7 +79,14 @@ class DBConnection:
         result = curr.fetchall()
         message_responses = []
         for rs in result:
-            print(rs)
+            message_responses.append(TelegramMessageResponse.from_db_tuple(rs,['message_id', 'message_text', 'sender_id', 'views', 'forwards', 'replies', 'media_present', 'media_type', 'media_path', 'message_length', 'has_image', 'channel_id', 'date_id']))
+        return message_responses
+    def top_products(self, limit:int):
+        curr = self.connection.cursor()
+        sql = "SELECT * FROM raw_analytics.fct_messages WHERE forward > 0"
+        result = curr.fetchmany(limit)
+        message_responses = []
+        for rs in result:
             message_responses.append(TelegramMessageResponse.from_db_tuple(rs,['message_id', 'message_text', 'sender_id', 'views', 'forwards', 'replies', 'media_present', 'media_type', 'media_path', 'message_length', 'has_image', 'channel_id', 'date_id']))
         return message_responses
 
