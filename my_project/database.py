@@ -74,6 +74,22 @@ class DBConnection:
             return False
     
     def search_message(self, query:str):
+        """
+        Searches for Telegram messages containing a specific text query within the
+        'raw.fct_messages' table.
+
+        This function performs a LIKE search on the 'message_text' column.
+
+        Args:
+            query (str): The text string to search for within message content.
+                         It should include SQL LIKE wildcards if desired (e.g., '%keyword%', 'start%').
+
+        Returns:
+            list[TelegramMessageResponse]: A list of TelegramMessageResponse objects
+                                          representing messages that match the query.
+                                          Each object contains details like message_id,
+                                          message_text, views, etc.
+        """
         curr = self.connection.cursor()
         curr.execute("SELECT * FROM raw.fct_messages WHERE message_text LIKE %s;", (query,))
         result = curr.fetchall()
@@ -82,6 +98,24 @@ class DBConnection:
             message_responses.append(TelegramMessageResponse.from_db_tuple(rs,['message_id', 'message_text', 'sender_id', 'views', 'forwards', 'replies', 'media_present', 'media_type', 'media_path', 'message_length', 'has_image', 'channel_id', 'date_id']))
         return message_responses
     def top_products(self, limit:int):
+        """
+        Retrieves messages that are considered "top products" based on a simple
+        heuristic: messages with at least one forward.
+
+        Note: The current implementation retrieves all messages with forwards > 0
+              and does not apply the 'limit' parameter from the function signature
+              in the SQL query. To truly limit the results, the SQL query
+              would need a 'LIMIT %s' clause.
+
+        Args:
+            limit (int): The maximum number of top product messages to retrieve.
+                         (Currently not applied in the SQL query, all matching
+                         messages are fetched).
+
+        Returns:
+            list[TelegramMessageResponse]: A list of TelegramMessageResponse objects
+                                          representing messages that have been forwarded.
+        """
         curr = self.connection.cursor()
         sql = "SELECT * FROM raw.fct_messages WHERE forwards > 0"
         curr.execute(sql)
@@ -91,6 +125,22 @@ class DBConnection:
             message_responses.append(TelegramMessageResponse.from_db_tuple(rs,['message_id', 'message_text', 'sender_id', 'views', 'forwards', 'replies', 'media_present', 'media_type', 'media_path', 'message_length', 'has_image', 'channel_id', 'date_id']))
         return message_responses
     def channel_activity(self, channel_name:str):
+        """
+        Calculates key activity metrics for a specific Telegram channel.
+
+        Metrics include Average View per post, Total Number of Posts, and Post Frequency.
+        The calculation is grouped by date and channel, and ordered by date.
+
+        Args:
+            channel_name (str): The ID of the channel for which to calculate activity.
+                                This is expected to correspond to `dim_channels.channel_id`.
+
+        Returns:
+            ChannelActivities: An object containing the calculated activity metrics
+                               for the specified channel, including ChannelId,
+                               NumberOfPosts, AverageView, and PostFrequency.
+                               Returns None if no activity is found for the channel.
+        """
         curr = self.connection.cursor()
         sql = """SELECT
         fct_messages.channel_id,
