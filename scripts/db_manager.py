@@ -31,7 +31,7 @@ def load_raw_json(conn, file_path):
     Loads raw JSON data from a file into the 'raw_messages' table.
 
     Args:
-        conn (sqlite3.Connection): The database connection object.
+        conn (pyscopg.Connection): The database connection object.
         file_path (str): The full path to the JSON file.
     """
     try:

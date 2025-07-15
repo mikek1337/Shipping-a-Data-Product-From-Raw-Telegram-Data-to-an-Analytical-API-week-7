@@ -8,13 +8,15 @@ import os
 from datetime import datetime, timedelta
 from utils import logger, get_data_path, get_image_path
 from dotenv import load_dotenv
+from dagster import op, Out
 from collections import defaultdict # To group messages by date
 load_dotenv()
 api_hash= os.getenv('APP_KEY')
 api_id=os.getenv('APP_ID')
 phone_number=os.getenv('PHONE')
 config = configparser.ConfigParser()
-config.read('config.ini')
+config.read('../config.ini')
+
 async def scrape_telegram_channel(client, channel_entity, channel_name, channel_id, limit=None):
     """
     Asynchronously scrapes messages and media from a single Telegram channel.
@@ -107,8 +109,8 @@ async def scrape_telegram_channel(client, channel_entity, channel_name, channel_
     logger.info(f"Finished scraping {message_count} messages and {image_count} images from {channel_name}.")
     return messages_by_date, channel_name
 
-
-async def main():
+@op(out=Out(io_manager_key="io_manager")) 
+async def start_scrape():
     """
     Main asynchronous function to connect to Telegram, authenticate, and orchestrate
     the scraping of multiple configured Telegram channels. It saves scraped messages
@@ -121,7 +123,7 @@ async def main():
         None: The function performs operations (scraping, saving files) and does not
               return any value directly.
     """
-    client = TelegramClient('channel_scraper', api_id, api_hash)
+    client = TelegramClient('../channel_scraper', api_id, api_hash)
     
     logger.info("Connecting to Telegram...")
     await client.connect()
@@ -181,6 +183,3 @@ async def main():
 
     await client.disconnect()
     logger.info("Telegram client disconnected.")
-
-if __name__ == "__main__":
-    asyncio.run(main())

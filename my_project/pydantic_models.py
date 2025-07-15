@@ -2,10 +2,20 @@ from pydantic import BaseModel, Field
 from typing import Optional, Tuple, Any, List
 from datetime import date
 class ChannelActivities(BaseModel):
-    ChannelId:str
-    NumberOfPosts: int
-    AverageView :int
-    PostFrequecy: int
+    ChannelId:str = Field(...,description='ID')
+    NumberOfPosts: int = Field(...,description='ID')
+    AverageView :int = Field(...,description='ID')
+    PostFrequecy: int = Field(...,description='ID')
+    @classmethod
+    def from_db_tuple(cls, db_tuple: Tuple[Any, ...], column_names: List[str]):
+        """
+        Creates an Order instance from a database tuple and column names.
+        """
+        if len(db_tuple) != len(column_names):
+            raise ValueError("Tuple length must match column names length.")
+
+        data_dict = dict(zip(column_names, db_tuple))
+        return cls(**data_dict)
 
 class TelegramMessageResponse(BaseModel):
     """

@@ -53,7 +53,7 @@ def get_data_path(channel_name, message_date, data_type="messages"):
     """
     # Format the message date as YYYY-MM-DD
     date_str = message_date.strftime('%Y-%m-%d')
-    base_path = f'data/raw/telegram_{data_type}/{date_str}'
+    base_path = f'../data/raw/telegram_{data_type}/{date_str}'
     os.makedirs(base_path, exist_ok=True)
     return os.path.join(base_path, f'{channel_name}.json')
 
@@ -77,6 +77,6 @@ def get_image_path(channel_name, message_date, message_id, file_extension):
     """
     # Format the message date as YYYY-MM-DD
     date_str = message_date.strftime('%Y-%m-%d')
-    base_path = f'data/raw/telegram_images/{date_str}/{channel_name}'
+    base_path = f'../data/raw/telegram_images/{date_str}/{channel_name}'
     os.makedirs(base_path, exist_ok=True)
     return os.path.join(base_path, f'{message_id}{file_extension}')

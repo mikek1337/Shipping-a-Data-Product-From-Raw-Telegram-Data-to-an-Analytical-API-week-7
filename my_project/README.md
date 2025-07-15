@@ -13,3 +13,12 @@ Try running the following commands:
 - Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
 - Find [dbt events](https://events.getdbt.com) near you
 - Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+
+## API Endpoint
+### **Top products** endpoint
+![screenshot](Screenshot_20250715_231330-1.png)
+### **Search message** endpoint
+![screenshot](Screenshot_20250715_231348-1.png)
+### **Channel activity**
+![screenshot](Screenshot_20250716_003714.png)
+

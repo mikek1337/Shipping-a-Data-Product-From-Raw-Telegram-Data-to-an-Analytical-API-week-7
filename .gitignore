@@ -4,4 +4,6 @@ data/
 __pycache__/
 channel_scraper.session
 yolov8n.pt
+yolo11n.pt
 logs/
+temp*
